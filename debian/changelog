@@ -1,3 +1,10 @@
+nymea-apikeysprovider-plugin-community (0.3) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Update keys submodule
+
+ -- Jenkins <jenkins@nymea.io>  Tue, 15 Dec 2020 11:06:19 +0100
+
 nymea-apikeysprovider-plugin-community (0.2) xenial; urgency=medium
 
   [ Michael Zanetti ]

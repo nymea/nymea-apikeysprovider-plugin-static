@@ -1,3 +1,13 @@
+nymea-apikeysprovider-plugin-community (0.4) xenial; urgency=medium
+
+  [ Bernhard Trinnes ]
+  * Update for accuweather and push notifications
+
+  [ Michael Zanetti ]
+  * Update build dep to libnymea-dev
+
+ -- Jenkins <jenkins@nymea.io>  Fri, 19 Feb 2021 21:52:03 +0100
+
 nymea-apikeysprovider-plugin-community (0.3) xenial; urgency=medium
 
   [ Michael Zanetti ]

@@ -18,6 +18,12 @@ exists(data/apikeys.json) {
     error("No API keys file found. Cannot build.\nPlease either provide an api keys file in data/apikeys.json\nor in /opt/nymea-apikeys-community/apikeys.json")
 }
 
+gcc {
+    COMPILER_VERSION = $$system($$QMAKE_CXX " -dumpversion")
+    COMPILER_MAJOR_VERSION = $$str_member($$COMPILER_VERSION)
+    greaterThan(COMPILER_MAJOR_VERSION, 7): QMAKE_CXXFLAGS += -Wno-deprecated-copy
+}
+
 # Convert the json file into a includeable header
 includegenerator.input = JSONFILE
 includegenerator.output  = apikeys.h

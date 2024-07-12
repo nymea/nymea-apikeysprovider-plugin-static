@@ -1,10 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: nymea-zeroconf-plugin-avahi
+Upstream-Name: nymea-apikeysprovider-plugin-community
 Upstream-Contact: nymea GmbH <contact@nymea.io>
-Copyright: 2013-2020, nymea GmbH
-Download: http://www.github.com/nymea/nymea-zeroconf-plugin-avahi
-Source: https://github.com/nymea/nymea-zeroconf-plugin-avahi.git
-
+Copyright: 2013-2024, nymea GmbH
+Download: http://www.github.com/nymea/nymea-apikeysprovider-plugin-community
+Source: https://github.com/nymea/nymea-apikeysprovider-plugin-community.git
 
 License: LGPL-2.1
  On Debian systems, the complete text of the GNU Lesser General
@@ -14,10 +13,9 @@ License: LGPL-3
  On Debian systems, the complete text of the GNU Lesser General
  Public License can be found in `/usr/share/common-licenses/LGPL-3'.
 
-
 Files: qt-watch.*
 License: LGPL-2.1
 
 Files: *
 License: LGPL-3
-Copyright: 2013 - 2020, nymea GmbH <contact@nymea.io>
+Copyright: 2013 - 2024, nymea GmbH <contact@nymea.io>

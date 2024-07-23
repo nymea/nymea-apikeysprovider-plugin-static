@@ -1,3 +1,11 @@
+nymea-apikeysprovider-plugin-community (1.9.3) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Update to new API keys
+  * Update debian packaging to at least debian 10
+
+ -- jenkins <developer@nymea.io>  Tue, 23 Jul 2024 17:01:15 +0200
+
 nymea-apikeysprovider-plugin-community (1.9.2) jammy; urgency=medium
 
 

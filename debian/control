@@ -1,15 +1,16 @@
 Source: nymea-apikeysprovider-plugin-community
 Section: libs
 Priority: optional
-Maintainer: Michael Zanetti <michael.zanetti@nymea.io>
-Standards-Version: 3.9.7
+Maintainer: nymea GmbH <contact@nymea.io>
+Standards-Version: 4.6.0
 Homepage: https://nymea.io
-Vcs-Git: https://github.com/nymea/nymea-apikeys-plugin-static.git
+Vcs-Git: https://github.com/nymea/nymea-apikeysprovider-plugin-community.git
 Build-Depends: debhelper (>= 9.0.0),
                dpkg-dev (>= 1.16.1~),
                qt5-qmake,
                qtbase5-dev,
                libnymea-dev (>= 0.24),
+
 
 Package: nymea-apikeysprovider-plugin-community
 Architecture: any
